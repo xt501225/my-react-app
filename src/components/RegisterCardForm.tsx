@@ -43,7 +43,7 @@ const RegisterCardForm = ({
         </div>
         <button
           type="submit"
-          className="p-4 bg-yellow-400 block w-full disabled:bg-yellow-200 disabled:text-gray-500"
+          className="p-4 bg-blue-400 block w-full disabled:bg-blue-200 disabled:text-gray-500"
           disabled={!formState.isValid}
         >
           Submit

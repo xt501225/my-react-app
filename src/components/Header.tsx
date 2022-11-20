@@ -5,8 +5,8 @@ import { useAppContext } from "../AppContext";
 const Header = ({ headerText, isMenuHeader = false }: { headerText: string, isMenuHeader?: boolean }) => {
   const { toggleMenu } = useAppContext();
   return (
-    <div className="w-full flex items-center justify-center bg-yellow-400 relative">
-      <button className="absolute left-0 p-4 h-full flex items-center hover:bg-yellow-500" onClick={toggleMenu} tabIndex={0} >
+    <div className="w-full flex items-center justify-center bg-blue-400 relative">
+      <button className="absolute left-0 p-4 h-full flex items-center hover:bg-blue-500" onClick={toggleMenu} tabIndex={0} >
         {isMenuHeader ? (
           <ArrowBackIcon fontSize="large" aria-label="close menu" />
         ) : (
